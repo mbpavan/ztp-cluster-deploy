@@ -1,0 +1,7 @@
+- name: mirror assisted installer images
+  include_role:
+    name: "{{ playbook_dir }}/../common-roles/offline-mirror-olm"
+
+      #- name: mirror assisted installer images
+      #  include_role:
+#    name: "{{ playbook_dir }}/../common-roles/mirror-ai-images"
