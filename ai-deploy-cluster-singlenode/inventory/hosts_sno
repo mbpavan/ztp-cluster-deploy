@@ -1,0 +1,62 @@
+[all:vars]
+pull_secret='{"auths":{"cloud.openshift.com":{"auth":"b3BlbnNoaWZ0LXJlbGVhc2UtZGV2K3Nlc3JlaWNoYXIxbGJrYjZuMTJjbXN1YXZibm9xdncxZXowcnQ6OUU2MUNHS1dZVFVLSDZWVExDV0pYTzhVNlBKTDAzQ0tST0E2UEZLWVBJTFVQTjRaVkdHUllWNlJDVDhOU0xTVQ==","email":"sreichar@redhat.com"},"quay.io":{"auth":"b3BlbnNoaWZ0LXJlbGVhc2UtZGV2K3Nlc3JlaWNoYXIxbGJrYjZuMTJjbXN1YXZibm9xdncxZXowcnQ6OUU2MUNHS1dZVFVLSDZWVExDV0pYTzhVNlBKTDAzQ0tST0E2UEZLWVBJTFVQTjRaVkdHUllWNlJDVDhOU0xTVQ==","email":"sreichar@redhat.com"},"registry.connect.redhat.com":{"auth":"NTE0MjYzNzl8dWhjLTFMQmtCNk4xMmNNc3VhVkJuT1F2dzFFejBSdDpleUpoYkdjaU9pSlNVelV4TWlKOS5leUp6ZFdJaU9pSTNNR1ZqTlRNeFlXTTJaRFEwWVdVek9HUTVNelptTnpreFpXUXdNekF3WXlKOS5TcWhPanVLeDY1LVkxWkVHX1hlOGJnT1lhejNyOFgwb1VYX1hSYzZmQmszRFlVamd1MlFoTEpZMnN4US01ekZZeUp3dl9yc000NmlzekEwSnF6cEYycFl4aTZuNVQ5bnZTZ1otSEVVRlE1Rm5Vb3lXcVBaalN4MEFBcTFWT05MMVgyTmxjc25vOVczUklQX0o1OUVVdVE1YXFkNTRrUnJBbjQtNHVLbTdpc0VNTGZjS2ZWODFTSk5sX1ZlNHREcE1aZVhQSjBMbWNCQUZlUDBYdXFHN0lEQTBjeUJ5M2JDRXhYWjhSMmVpZ29nd2RWVXFtWGVCM0JCVDByVGE2bHlJTVdCUXdWZjI0RXNFaE51VnpYUmVCQWNxdFo1c3ozSDdHUE0xanJJRHU3dHU1dUZjRXpuYk5FNmFBMTdFZUtpMTBEVV9HdkpRTGhGTXNGcWtwdnhaa181OGUzV0JwWmk0Y25mNDJFMi1sN3NEOHQ4VERlN2ZNRVEtX18xeGFld1pyUXhaV3N3NzhYTnZLNXBQdDAwcDRJR0JYMUR0dEJhUmwzMm5yRzlDZzVjSWRxbHVnMDBKbThNUFFVbWRaYTJheW5LenRTYW5MenVkbnpMMnBJVkQ1MXRJSVFCSk9ackx3OE8yc1VudVFfWm54V2Nnd1VSQUEyaVlZTFVCVTFZZHNDbDFZRXhXeTFBeHB4OXdEckRJMEFyR2UyTlJvc1lnWVgtXzR3X0daWXZ6cDdrbnB1R2pDZlVUYTIyYjFibXNKTWtLU2pOS2hidmN5YUdPZVB4ZXlPRnRoZmN4WlBjNHg3Y2kxVGc1ZFoxY3l3YVc0U2JtdUJxNkdWblVEVjVhczlUSUJvc0luZ3dNWUtnY081NFRoRWJsUGVkUXBPVGgwdkJYaTh4MTN5QQ==","email":"sreichar@redhat.com"},"registry.redhat.io":{"auth":"NTE0MjYzNzl8dWhjLTFMQmtCNk4xMmNNc3VhVkJuT1F2dzFFejBSdDpleUpoYkdjaU9pSlNVelV4TWlKOS5leUp6ZFdJaU9pSTNNR1ZqTlRNeFlXTTJaRFEwWVdVek9HUTVNelptTnpreFpXUXdNekF3WXlKOS5TcWhPanVLeDY1LVkxWkVHX1hlOGJnT1lhejNyOFgwb1VYX1hSYzZmQmszRFlVamd1MlFoTEpZMnN4US01ekZZeUp3dl9yc000NmlzekEwSnF6cEYycFl4aTZuNVQ5bnZTZ1otSEVVRlE1Rm5Vb3lXcVBaalN4MEFBcTFWT05MMVgyTmxjc25vOVczUklQX0o1OUVVdVE1YXFkNTRrUnJBbjQtNHVLbTdpc0VNTGZjS2ZWODFTSk5sX1ZlNHREcE1aZVhQSjBMbWNCQUZlUDBYdXFHN0lEQTBjeUJ5M2JDRXhYWjhSMmVpZ29nd2RWVXFtWGVCM0JCVDByVGE2bHlJTVdCUXdWZjI0RXNFaE51VnpYUmVCQWNxdFo1c3ozSDdHUE0xanJJRHU3dHU1dUZjRXpuYk5FNmFBMTdFZUtpMTBEVV9HdkpRTGhGTXNGcWtwdnhaa181OGUzV0JwWmk0Y25mNDJFMi1sN3NEOHQ4VERlN2ZNRVEtX18xeGFld1pyUXhaV3N3NzhYTnZLNXBQdDAwcDRJR0JYMUR0dEJhUmwzMm5yRzlDZzVjSWRxbHVnMDBKbThNUFFVbWRaYTJheW5LenRTYW5MenVkbnpMMnBJVkQ1MXRJSVFCSk9ackx3OE8yc1VudVFfWm54V2Nnd1VSQUEyaVlZTFVCVTFZZHNDbDFZRXhXeTFBeHB4OXdEckRJMEFyR2UyTlJvc1lnWVgtXzR3X0daWXZ6cDdrbnB1R2pDZlVUYTIyYjFibXNKTWtLU2pOS2hidmN5YUdPZVB4ZXlPRnRoZmN4WlBjNHg3Y2kxVGc1ZFoxY3l3YVc0U2JtdUJxNkdWblVEVjVhczlUSUJvc0luZ3dNWUtnY081NFRoRWJsUGVkUXBPVGgwdkJYaTh4MTN5QQ==","email":"sreichar@redhat.com"},"registry.ci.openshift.org":{"auth":"dXNlcjpzaGEyNTZ+TWh1dVE5OHkyMlpPUjhVUjFrdXhmbHFrdnpxOU5RTWhYQl81ZmwtVlZGYw=="}}}'
+
+ssh_public_key="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJmdSVanPJD5iDmqahjaxnnGRFNm3FsyQlas4pjZnPPIvKkLFyjOIVqSv8VJ5J6hsOS6R1anS6vaK5jZQ0pHfEN6f64IYwjieHHpYwORp5U0XPFYAJo70axOFnWXVC4tgn2qJQQzHv/KojPkSK3WzA2LoLJB7tYDbM6mprUGuFr9mh+iS8zTrDYiYDrxCeQf2zEFBp7pMTMotDIktfQkfuiFTQKoljezDBRnPBqdjA8qWxnj3EcI4b4+apy1qixfXl3c3ZNCXQITTm8VQvxl2Y8tMnIkkeT1oO9a7TN/c1kTeqiuTDrIe+eY41KYvh0Ol2ayKmpz31tsNRAZLR1T+FVR5XkTN9mCRUE/fKMTQJpWlj5PuHQpJx9JMhT4Yq0ZAEri+zkZ72o0S3Xc/N1b/za8PKqICW1ZanyNHsJBvlpTQMOjS4GfQE/aY28gSGz2M6iLsYhAXrKAP8cuRM6l0lLvekDnthCs8+TH58q+V+88GYpqvH6eRz/Z4UR1RR9ck= kni@worker-2.clus3a.t5g.lab.eng.bos.redhat.com"
+
+temporary_path=/tmp
+
+ # url where AI will be populated
+ai_url="http://10.19.32.201:8090"
+
+# cluster settings
+cluster_name="ocp-sno2"
+cluster_domain="e2e.bos.redhat.com"
+cluster_sdn="OpenShiftSDN"
+
+# OpenShift versions that will be used by AI 
+# Be careful with changing rhcos_base_iso without changing the equivalent cluster_version.
+cluster_version=4.8
+sno_image="registry.ci.openshift.org/ocp/release:4.8.0-0.nightly-2021-04-03-044912"
+display_name="single-node-4.8.0-0.nightly-2021-04-03-044912"
+rhcos_image="https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/pre-release/4.7.0-rc.2/rhcos-4.7.0-rc.2-x86_64-live.x86_64.iso"
+rhcos_version="47.83.202102090044-0"
+support_level="beta"
+
+### AI versions to deploy: ###
+# Set as "HEAD" to use main latest, or as the specific commit hash:
+ai_version="HEAD"
+
+# Set as "latest" for latest quay image
+# assisted_tag=stable.12.03.2021-07.23
+assisted_tag=latest
+
+### BMC variables. Set according to your server' hardware ###
+bmc_address=10.19.28.53
+bmc_user="root"
+bmc_password="calvin"
+
+# Uncomment for Dell:
+bmc_type=Dell
+need_racadm=true
+iso_url=http://10.19.32.201
+final_iso_path=/var/www/html 
+
+## Uncomment for SuperMicro:
+# bmc_type=SuperMicro
+# smb_host=192.168.111.1
+# smb_path=share
+# final_iso_path=/home/share/
+# need_racadm=false
+
+# if virtualmedia is done over http
+virtualmedia_over_http=True
+
+### Network config (uncomment for static setting, or leave commented for DHCP)
+# it needs to follow nmstate format
+#network_config_path=./sample/worker_sno.yaml
+#hostname="worker-0.clus3a.t5g.lab.eng.bos.redhat.com"
+
+[provisioner]
+# host from where the installation is performed
+#<remote_ip> ansible_connection=ssh
+localhost ansible_connection=local
